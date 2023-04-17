@@ -1,0 +1,171 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.header{
+height: 880px;
+width: 1920px;
+background-image: url(../img/header.png);
+background-position: center;
+background-size: cover;
+padding-left: 5%;
+padding-right: 5%;
+}
+.logo{
+margin-left: 130px;
+margin-top: 20px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 51px;
+}
+.logo_title{
+color: white;
+} 
+
+.navbar{
+display: flex;
+}
+
+.navbar ul{
+display: flex;
+justify-content: space-between;
+padding-left: 240px;
+padding-top: 20px;
+}
+
+.navbar li{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 51px;
+color: #FFFFFF;
+padding-left: 140px;
+text-decoration: none;
+list-style: none;
+cursor: pointer;
+}
+
+.navbar li:hover{
+color: #5DDAF6;
+}
+
+.logo{
+display: flex;}
+
+/* box */
+.box_background{
+width: 380px;
+height: 100px;
+background-color: white;
+position: absolute;
+right: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin-top: -110px;
+}
+
+.icon_drone{
+width: 90px;
+margin-left: 40px;
+
+}
+.icon_search{
+width: 55px;
+margin-left: 40px;
+position: absolute;
+margin-top: 18px;
+}
+.icon_star{
+width: 60px;
+margin-left: 150px;
+position: absolute;
+margin-top: 15px;
+}
+
+.box_text{
+display: flex;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+}
+
+.box_title{
+padding-left: 45px;
+}
+.box_title_star{
+margin-left: 55px;
+}
+
+.btn_box{
+margin-top: 50px;
+margin-left: 760px;
+}
+
+.btn{
+width: 380px;
+height: 80px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 61px;
+color: #000000;
+cursor: pointer;
+background: linear-gradient(to right, #499BDE, #5DDAF6);
+border: none;
+}
+.btn:hover{
+    background: linear-gradient(to right, #5DDAF6, #499BDE);
+    transition: all 0.3s ease-in-out;
+}
+.btn_icon{
+width: 50px;
+padding-left: 10px;}
+
+.about_title{
+padding-top: 80px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 51px;
+text-align: center;
+color: #000000;
+}
+
+.about_subtitle{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+text-align: center;
+color: #000000;
+}
+
+.about_subtitle{
+    padding-top: 70px;
+}
+
+.about_img{
+margin-left: 650px;
+margin-top: 90px;
+}
+
+.prize_title{
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 51px;
+text-align: center;    
+color: #000000;
+padding-top: 100px;}
